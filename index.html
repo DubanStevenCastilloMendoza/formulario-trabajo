@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <form action="" id="formulario">
+        <h1>Registro</h1>
+  
+        <div class="input-t">
+          <input type="text" placeholder="Nombres" id="name" />
+        </div>
+        <div class="input-t">
+          <input type="text" placeholder="Apellidos" id="apellido" />
+        </div>
+        <div class="input-t">
+          <input type="email" placeholder="Correo electronico" id="correo" />
+        </div>
+        <div class="input-t">
+          <select name="" id="genero">
+            <option value="">vacio</option>
+            <option value="mujer">mujer</option>
+            <option value="hombre">hombre</option>
+          </select>
+        </div>
+        <div class="input-t">
+          <select name="" id="cargo">
+            <option value="desarrollador">desarrollador</option>
+            <option value="gerente de proyecto">gerente de proyecto</option>
+            <option value="lider administrativo">lider administrativo</option>
+            <option value="conductor">conductor</option>
+            <option value="otro">otro</option>
+          </select>
+        </div>
+        <div class="input-t" id="">
+          <input type="text" style="display: none;" placeholder="otro" id="otro"  />
+        </div>
+  
+        <button onclick="capturar()" id="btn">Guardar</button>
+      </form>
+    </div>
+
+
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
